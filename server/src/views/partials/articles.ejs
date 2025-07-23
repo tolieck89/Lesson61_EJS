@@ -1,0 +1,9 @@
+<div class="container">
+        <h1><% title %></h1>
+        
+        Total srticles: <%= articles.length %> <br/>
+        <% articles.forEach(function(item,index){ %>
+        <%= item.id %> 
+        <%= item.article %> <br>
+    <% }) %>
+    </div>
